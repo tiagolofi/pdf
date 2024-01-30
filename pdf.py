@@ -38,7 +38,7 @@ class Pdf():
         pdf.write(filename)
         pdf.close()
 
-    def reorder(self, pages_order: list = None, filename: str = None) -> None:
+    def reorder_resize(self, pages_order: list = None, filename: str = None) -> None:
         '''
         Parameters:
             - pages_order: a list with the new order of the pages, ex: [4, 3, 1, 2];

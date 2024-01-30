@@ -24,12 +24,12 @@ list_pdfs = Pdf(list_files = ['File 1.pdf', 'File 2.pdf'])
 list_pdfs.join(filename = 'New Name.pdf') # create new file called 'New Name.pdf' (filename parameter)
 ```
 
-#### Reordenar/Excluir Páginas
+#### Reordenar/Excluir Páginas/Redimensionar Tamanho em Bytes
 
 ```python
 pdf = Pdf(file = 'File.pdf')
 
-pdf.reorder(pages_order=[3, 2, 4, 1]) # filename is default
+pdf.reorder_resize(pages_order=[3, 2, 4, 1]) # filename is default
 ```
 
 #### Cortar
